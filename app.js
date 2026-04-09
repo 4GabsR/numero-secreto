@@ -1,11 +1,12 @@
 let ListadeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroAleatorio = gerarNumeroAleatorio();
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    resposiveVoice.speak
 }
 function exibirMensagemInicial() {
     exibirTextoNaTela ('h1', 'Jogo do número Secreto')
