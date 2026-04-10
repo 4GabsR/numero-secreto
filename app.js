@@ -9,7 +9,7 @@ function exibirTextoNaTela(tag, texto) {
     resposiveVoice.speak
 }
 function exibirMensagemInicial() {
-    exibirTextoNaTela ('h1', 'Jogo do número Secreto')
+    exibirTextoNaTela ('h1', 'Descubra o número Secreto');
     exibirTextoNaTela ('p' , 'Digite um número de 1 a 10');
 }
 
